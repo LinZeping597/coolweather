@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:background="#8000"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="空气质量"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:id="@+id/aqi_text"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:text="AQI指数"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:id="@+id/pm25_text"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:text="PM2.5指数"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+</LinearLayout>
+
+</LinearLayout>
