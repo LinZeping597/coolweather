@@ -1,26 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:layout_height="?attr/actionBarSize"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:id="@+id/title_city"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textColor="#fff"
-        android:textSize="20dp"/>
-
-    <TextView
-        android:id="@+id/title_update_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_alignParentRight="true"
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_home"
         android:layout_centerVertical="true"
-        android:textColor="#fff"
-        android:textSize="16sp"/>
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/nav_button"/>
 
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/title_city"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/title_update_time"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
 
 </RelativeLayout>
